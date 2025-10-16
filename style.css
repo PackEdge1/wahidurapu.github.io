@@ -27,8 +27,11 @@ body {
   position: fixed;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;       /* centers content horizontally */
+  justify-content: flex-start; /* keeps everything near the top */
+  gap: 1.5rem;               /* adds small spacing between elements */
 }
+
 .sidebar nav a {
   display: block;
   color: white;
