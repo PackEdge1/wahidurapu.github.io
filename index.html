@@ -3,30 +3,40 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Wahidur Apu | Portfolio</title>
+  <title>Wahidur Apu | Computer Engineering Portfolio</title>
+  <meta name="description" content="Portfolio of Wahidur Apu — a Computer Engineering student passionate about hardware, software, and technology innovation." />
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <aside class="sidebar">
-    <h2>Wahidur Apu</h2>
-    <p>Computer Engineering Student</p>
-    <nav>
+    <header>
+      <h2>Wahidur Apu</h2>
+      <p>Computer Engineering Student</p>
+    </header>
+
+    <nav aria-label="Main navigation">
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
       <a href="#experience">Experience</a>
       <a href="#contact">Contact</a>
     </nav>
-    <button id="theme-toggle">🌙</button>
+
+    <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
   </aside>
 
   <main>
     <section id="about">
       <h1>About Me</h1>
-      <p>Hey, I’m Wahi — a Computer Engineering student passionate about building systems that combine hardware and software. I love solving technical problems and learning new tools that help turn ideas into reality. I’m currently seeking internships where I can grow as a developer and engineer.</p>
+      <p>
+        Hey, I’m Wahi a Computer Engineering student passionate about building systems that blend hardware and software.
+        I love solving technical problems, exploring new technologies, and creating tools that make life easier.
+        I’m currently seeking internships where I can grow as a developer and engineer.
+      </p>
     </section>
 
     <section id="skills">
@@ -41,7 +51,7 @@
           <div class="bar"><div class="fill" style="width: 75%"></div></div>
         </div>
         <div class="skill">
-          <span>HTML / CSS / JS</span>
+          <span>HTML / CSS / JavaScript</span>
           <div class="bar"><div class="fill" style="width: 90%"></div></div>
         </div>
         <div class="skill">
@@ -54,45 +64,57 @@
     <section id="projects">
       <h1>Projects</h1>
       <div class="card-grid">
-        <div class="card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+        <article class="card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python logo" />
           <h3>Smart PC Diagnostic Tool</h3>
-          <p>Created a Python-based performance analyzer that detects bottlenecks and sensor anomalies in PCs.</p>
-        </div>
-        <div class="card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS" />
+          <p>Developed a Python-based performance analyzer that identifies bottlenecks and sensor anomalies in PCs.</p>
+        </article>
+
+        <article class="card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript logo" />
           <h3>Custom PC Builder App</h3>
-          <p>Developed a responsive web tool for users to assemble and price PC builds with live part compatibility checks.</p>
-        </div>
-        <div class="card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" alt="Arduino" />
+          <p>Created a responsive web tool that lets users assemble PC builds with real-time part compatibility checks.</p>
+        </article>
+
+        <article class="card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" alt="Arduino logo" />
           <h3>IoT Motion Tracker</h3>
-          <p>Built a microcontroller-based motion sensor that tracks movement and sends data wirelessly for analysis.</p>
-        </div>
+          <p>Built a microcontroller-based motion tracker that monitors activity and sends data wirelessly for analysis.</p>
+        </article>
       </div>
     </section>
 
     <section id="experience">
       <h1>Experience</h1>
       <ul>
-        <li><strong>Service Assistant – St. Cecilia</strong><br>Worked with teams to coordinate events, improving collaboration and leadership.</li>
-        <li><strong>Bakery Clerk – Publix</strong><br>Managed early morning production tasks and developed time management skills.</li>
-        <li><strong>Co-Founder – Muslim Student Association</strong><br>Organized interfaith and community events promoting cultural understanding.</li>
+        <li>
+          <strong>Service Assistant – St. Cecilia</strong><br />
+          Collaborated with teams to coordinate events, enhancing leadership and communication skills.
+        </li>
+        <li>
+          <strong>Bakery Clerk – Publix</strong><br />
+          Handled early morning production tasks, improving time management and responsibility.
+        </li>
+        <li>
+          <strong>Co-Founder – Muslim Student Association</strong><br />
+          Organized interfaith and community events to promote cultural understanding and inclusion.
+        </li>
       </ul>
     </section>
 
     <section id="contact">
       <h1>Contact</h1>
-      <p>📧 <a href="mailto:wahidurapu@example.com">wahidurapu@example.com</a></p>
-      <p>💼 <a href="https://linkedin.com/in/yourlinkedin" target="_blank">LinkedIn</a></p>
-      <p>💻 <a href="https://github.com/wahidurapu" target="_blank">GitHub</a></p>
+      <p>📧 <a href="mailto:apuwahidur@gmail.com">apuwahidur@gmail.com</a></p>
+      <p>💼 <a href="https://linkedin.com/in/wahidur-apu-950282368/" target="_blank" rel="noopener">LinkedIn</a></p>
+      <p>💻 <a href="https://github.com/PackEdge1" target="_blank" rel="noopener">GitHub</a></p>
     </section>
 
     <footer>
-      <p>© 2025 Wahidur Apu | Built using HTML, CSS, and JavaScript</p>
+      <p>© 2025 Wahidur Apu | Built with HTML, CSS & JavaScript</p>
     </footer>
   </main>
 
   <script src="script.js"></script>
 </body>
 </html>
+
