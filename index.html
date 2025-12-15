@@ -12,6 +12,8 @@
 </head>
 
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
   <aside class="sidebar">
     <header>
       <h2>Wahidur Apu</h2>
@@ -26,10 +28,10 @@
       <a href="#contact">Contact</a>
     </nav>
 
-    <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    <button id="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">🌙</button>
   </aside>
 
-  <main>
+  <main id="main">
     <section id="about">
       <h1>About Me</h1>
       <p>
@@ -39,35 +41,28 @@
       </p>
     </section>
 
-<section id="projects">
-  <h1>Projects</h1>
-  <div class="card-grid">
-
-    <article class="card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python logo" />
-      <h3>StudyFree</h3>
-      <p>
-        An AI-powered study assistant designed to help students organize coursework,
-        generate study plans, and improve learning efficiency using automation and data-driven insights.
-      </p>
-    </article>
-
-    <article class="card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python logo" />
-      <h3>Quant Research Assistant</h3>
-      <p>
-        A quantitative research tool that analyzes market data, tests trading strategies,
-        and supports structured decision-making through backtesting and performance analytics.
-      </p>
-    </article>
-
-  </div>
-</section>
-
-
     <section id="projects">
       <h1>Projects</h1>
       <div class="card-grid">
+
+        <article class="card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python logo" />
+          <h3>StudyFree</h3>
+          <p>
+            An AI-powered study assistant designed to help students organize coursework,
+            generate study plans, and improve learning efficiency using automation and data-driven insights.
+          </p>
+        </article>
+
+        <article class="card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python logo" />
+          <h3>Quant Research Assistant</h3>
+          <p>
+            A quantitative research tool that analyzes market data, tests trading strategies,
+            and supports structured decision-making through backtesting and performance analytics.
+          </p>
+        </article>
+
         <article class="card">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python logo" />
           <h3>Smart PC Diagnostic Tool</h3>
@@ -85,6 +80,7 @@
           <h3>IoT Motion Tracker</h3>
           <p>Built a microcontroller-based motion tracker that monitors activity and sends data wirelessly for analysis.</p>
         </article>
+
       </div>
     </section>
 
@@ -109,8 +105,8 @@
     <section id="contact">
       <h1>Contact</h1>
       <p>📧 <a href="mailto:apuwahidur@gmail.com">apuwahidur@gmail.com</a></p>
-      <p>💼 <a href="https://linkedin.com/in/wahidur-apu-950282368/" target="_blank" rel="noopener">LinkedIn</a></p>
-      <p>💻 <a href="https://github.com/PackEdge1" target="_blank" rel="noopener">GitHub</a></p>
+      <p>💼 <a href="https://linkedin.com/in/wahidur-apu-950282368/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+      <p>💻 <a href="https://github.com/PackEdge1" target="_blank" rel="noopener noreferrer">GitHub</a></p>
     </section>
 
     <footer>
@@ -121,6 +117,5 @@
   <script src="script.js"></script>
 </body>
 </html>
-
 
 
